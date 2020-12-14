@@ -36,13 +36,13 @@ body
     margin: auto;
 }    
 
-.container-center
+main
 {
     max-width: 600px;
     margin: auto;
 }
 
-#txt-input
+textarea
 {
     width : 100%;
     min-height : 20vh;
@@ -54,7 +54,7 @@ body
     color: black;
 }
 
-#btn-translate
+button
 {
     background-color: var(--primary-color);
     color: black;
