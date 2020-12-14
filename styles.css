@@ -80,4 +80,6 @@ body
     margin: 1rem;
     padding: 1rem;
     font-size: x-large;
+    overflow: scroll;
+    margin: auto;
 }
