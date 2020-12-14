@@ -24,6 +24,19 @@ body
     font-size: xx-large;
 }
 
+.hero
+{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .img-hero
+{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
 .container-center
 {
     max-width: 600px;
