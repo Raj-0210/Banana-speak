@@ -47,16 +47,19 @@ body
     width : 100%;
     min-height : 20vh;
     display : block;
-    padding : 2rem 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: inherit;
+    font-size: large;
 }
 
-
+.container-center textarea pla
 
 #output
-    {
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-    }
+{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
