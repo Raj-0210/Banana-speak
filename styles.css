@@ -36,7 +36,7 @@ body
     margin: auto;
 }
 
-textarea
+.container-center textarea
     {
     width : 100%;
     min-height : 20vh;
