@@ -8,6 +8,7 @@
 body
 {
     font-family: 'Indie Flower', cursive;
+    margin: 0px;
 }
 
 .navigation
@@ -16,11 +17,6 @@ body
     color: black;
     text-align: center;
     padding: 1rem;
-}
-
-.container
-{
-    padding: 0rem 1rem;
 }
 
 .container-center
