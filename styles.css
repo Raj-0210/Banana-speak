@@ -19,6 +19,11 @@ body
     padding: 1rem;
 }
 
+.navigation h1
+{
+    font-size: 1.1rem;
+}
+
 .container-center
 {
     max-width: 600px;
