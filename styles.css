@@ -36,20 +36,20 @@ body
     margin: auto;
 }
 
+textarea
+    {
+    width : 100%;
+    min-height : 20vh;
+    display : block;
+    margin-top : 2rem;
+    }    
+
 .container-center
 {
     max-width: 600px;
     margin: auto;
 }
 
-.textarea
-    {
-            width : 80%;
-            height : 10vh;
-            display : block;
-            margin : 1rem;
-            padding : 1rem;
-    }    
 #output
     {
             border: 1px solid black;
