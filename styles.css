@@ -83,3 +83,22 @@ body
     overflow: scroll;
     margin: auto;
 }
+
+.footer
+{
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: black;
+}
+
+.footer .footer-header
+{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.footer .footer-para
+{
+    font-size: large;
+}
