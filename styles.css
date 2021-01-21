@@ -9,6 +9,7 @@ body
 {
     font-family: 'Indie Flower', cursive;
     margin: 0px;
+    background-color: #FEF3C7;
 }
 
 .navigation
@@ -39,7 +40,9 @@ body
 main
 {
     max-width: 600px;
+    height:fit-content;
     margin: auto;
+    display: grid;
 }
 
 textarea
@@ -47,11 +50,18 @@ textarea
     width : 100%;
     min-height : 20vh;
     display : block;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     font-family: inherit;
-    font-size: large;
+    font-size: 1.3rem;
     color: black;
+    outline: none;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+textarea::placeholder{
+    color: black;
+    opacity: 0.78;
 }
 
 button
@@ -62,25 +72,28 @@ button
     font-weight: bold;
     padding: 1rem 2rem;
     border: none;
+    border-radius: 8px;
     font-family: 'Indie Flower', cursive;
-    margin-bottom: 0.5rem;
+    margin: 2rem auto;
+    cursor: pointer;
+    outline: none;
+    width: fit-content;
 }
 
-.op
-{
-    font-size : x-large;
+button:hover{
+    transform: scale(0.98);
 }
 
 #output
 {
-    border: 1px solid black;
+    border: 0.3px solid black;
+    border-radius: 10px;
     min-height: 10vh;
     max-height: 20vh;
-    width: 100%;
-    margin: 1rem;
+    width: 90%;
+    margin: 2rem;
     padding: 1rem;
     font-size: x-large;
-    overflow: scroll;
     margin: auto;
 }
 
